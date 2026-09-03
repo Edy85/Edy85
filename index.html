@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#111827">
+<meta name="description" content="WAM Buddy — Shopify POS training for WAM Denim store employees. Developed by Byte Solution.">
+<title>WAM Buddy | WAM Denim Staff Academy</title>
+<style>
+:root{--navy:#111827;--green:#087f69;--green2:#0aa382;--muted:#94a3b8;--bg:#eef2f0;--white:#fff;--blue:#1591b3}
+*{box-sizing:border-box}
+html,body{margin:0;width:100%;height:100%;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--navy)}
+body{display:flex;flex-direction:column;overflow:hidden}
+.header{height:74px;background:linear-gradient(100deg,#111827 0%,#15243a 100%);color:#fff;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:0 26px;box-shadow:0 4px 18px #0003;z-index:5}
+.identity{display:flex;align-items:center;gap:14px;min-width:0}.wammark{width:42px;height:42px;border-radius:12px;background:linear-gradient(135deg,var(--green),var(--green2));display:grid;place-items:center;font-weight:900;letter-spacing:-1px;box-shadow:0 5px 15px #0004}.titles{min-width:0}.kicker{font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:#78dbc2;font-weight:800;margin-bottom:3px}.title{font-size:21px;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.title span{color:#b7c4cf;font-weight:400;font-size:13px;margin-left:8px}.developer{display:flex;align-items:center;gap:9px;text-decoration:none;color:#fff;padding:8px 11px;border:1px solid #314052;border-radius:11px;background:#172234;transition:.15s}.developer:hover{border-color:#4ac6a8;transform:translateY(-1px)}.bsmark{width:30px;height:30px;border-radius:8px;background:linear-gradient(135deg,var(--green),var(--blue));display:grid;place-items:center;font-size:11px;font-weight:900}.devtxt small{display:block;color:#8ea0b2;font-size:8px;text-transform:uppercase;letter-spacing:.12em;margin-bottom:2px}.devtxt b{font-size:12px}.content{flex:1;min-height:0;padding:12px;background:linear-gradient(180deg,#f1f4f3,#e9efec)}.shell{width:100%;height:100%;background:#fff;border:1px solid #d5dfdb;border-radius:16px;overflow:hidden;box-shadow:0 16px 45px #0f172a1d}.shell iframe{display:block;width:100%;height:100%;border:0;background:#fff}.footer{height:32px;padding:0 26px;background:#f8faf9;color:#66756f;display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:10px;border-top:1px solid #dce4e1}.footer a{color:var(--green);font-weight:700;text-decoration:none}.footer a:hover{text-decoration:underline}
+@media(max-width:700px){.header{height:62px;padding:0 12px}.wammark{width:36px;height:36px;border-radius:10px}.title{font-size:17px}.title span{display:none}.kicker{font-size:8px}.developer{padding:6px}.devtxt{display:none}.content{padding:6px}.shell{border-radius:10px}.footer{height:28px;padding:0 10px}.footer .left{display:none}}
+</style>
+</head>
+<body>
+<header class="header">
+  <div class="identity">
+    <div class="wammark">W</div>
+    <div class="titles">
+      <div class="kicker">WAM DENIM • STAFF ACADEMY</div>
+      <div class="title">WAM Buddy <span>Shopify POS Training</span></div>
+    </div>
+  </div>
+  <a class="developer" href="https://bytesolution.nl" target="_blank" rel="noopener noreferrer" aria-label="Visit Byte Solution">
+    <span class="bsmark">BS</span>
+    <span class="devtxt"><small>Developed by</small><b>Byte Solution</b></span>
+  </a>
+</header>
+<main class="content">
+  <div class="shell"><iframe src="./wam-buddy-training/" title="WAM Buddy Shopify POS Training" allow="autoplay; fullscreen"></iframe></div>
+</main>
+<footer class="footer">
+  <span class="left">WAM Buddy • Practical training for store employees</span>
+  <span>Developed by <a href="https://bytesolution.nl" target="_blank" rel="noopener noreferrer">Byte Solution</a></span>
+</footer>
+</body>
+</html>
